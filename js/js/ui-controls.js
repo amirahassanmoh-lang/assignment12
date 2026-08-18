@@ -1,11 +1,4 @@
-/**
- * @fileoverview UI Controls - Custom select dropdowns and number input handlers
- * Extracted from inline HTML for better organization
- */
 
-/**
- * Initialize custom select dropdowns
- */
 function initCustomSelects() {
   document.querySelectorAll('.custom-select').forEach(select => {
     const trigger = select.querySelector('.custom-select-trigger');
